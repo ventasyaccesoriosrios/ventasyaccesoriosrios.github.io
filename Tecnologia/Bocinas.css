@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+body, html, div{
+    width:100%;
+    height:100%;
+    margin:0;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: row;
+} 
+
+h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  height: 100%;
+  width: 100%;
+  left:80%;
+  color:maroon;
+
+}
+h2{
+  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  height: 120%;
+  width: 100%;
+
+
+
+}
+
+#h2{
+  
+  align-items: center;
+  justify-content: right;
+  display: flex;
+  flex-direction: row;
+height: 120%;
+width: 10%;
+
+color: palevioletred;
+
+}
+h3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  height: 100%;
+  width: 80%;
+}
+#teclado{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  height: 100%;
+  width: 80%;
+
+}
+
+#Logo{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+text-align: center;
+  flex-direction: row;
+  height: 65%;
+  width:40%;
+}
+
+#teclado2{
+  justify-content: left;
+  align-items: left;
+  display: flex;
+text-align: center;
+  flex-direction: row;
+  height: 100%;
+  width:100%;
+}
+#grey{
+  background:pink;
+}
